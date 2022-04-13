@@ -344,6 +344,10 @@
             {
               "name": "WEBSITE_NODE_DEFAULT_VERSION",
               "value": "10.15.2"
+            },
+            {
+              "name": "WEBSITE_RUN_FROM_PACKAGE",
+              "value": "1"
             }
           ],
           "cors": {
@@ -649,6 +653,10 @@
             {
               "name": "ServiceBusConnection",
               "value": "[listkeys(variables('authRuleResourceId'), '2017-04-01').primaryConnectionString]"
+            },
+            {
+              "name": "WEBSITE_RUN_FROM_PACKAGE",
+              "value": "1"
             }
           ]
         }
@@ -737,6 +745,10 @@
             {
               "name": "ServiceBusConnection",
               "value": "[listkeys(variables('authRuleResourceId'), '2017-04-01').primaryConnectionString]"
+            },
+            {
+              "name": "WEBSITE_RUN_FROM_PACKAGE",
+              "value": "1"
             }
           ]
         }
@@ -837,6 +849,10 @@
             {
               "name": "ServiceBusConnection",
               "value": "[listkeys(variables('authRuleResourceId'), '2017-04-01').primaryConnectionString]"
+            },
+            {
+              "name": "WEBSITE_RUN_FROM_PACKAGE",
+              "value": "1"
             }
           ]
         }
